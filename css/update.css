@@ -1,0 +1,94 @@
+header{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+body{
+  font-family: sans-serif;
+  background-color: #000000;
+  padding: 0px;
+  margin: 0px;
+}
+header{
+  padding-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: #FFFF00;
+}
+label{
+  color:white;
+  font-size:16px;
+  font-weight: bold;
+  color: #FFFF00;
+}
+#form_div form{
+  margin-top:10px;
+}
+#form_div{
+  margin: auto;
+  width: 80%;
+  height: 200px;
+  background-color: #3D6AB3;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-radius: 10px;
+  font-weight: 16px;
+  margin-bottom: 10px;
+}
+#form_div form input[type="text"]{
+  border: none;
+  background-color:white;
+  height: 30px;
+  border-radius:3px;
+  width: 520px;
+  padding:0 15px;
+  margin-bottom: 10px;
+}
+#form_div form input[type="submit"]{
+    margin:0px 3px 0px 450px;
+    border:1px solid white;
+    border-radius:3px;
+    background-color:white;
+    color:#366ED1;
+    width:150px;
+    height:50px;
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size:15px;
+    cursor:pointer;
+  }
+  #form_div form input[type="reset"]{
+    margin-top:10px;
+    border:1px solid white;
+    border-radius:3px;
+    background-color:white;
+    color:#366ED1;
+    width:150px;
+    height:50px;
+    font-size:15px;
+    font-family:sans-serif;
+    font-weight:bold;
+    cursor:pointer;
+  }
+  #form_div form input:hover{
+    background-color: #ffebe5;
+  }
+h2{
+  text-align: center;
+}
+#logout_btn a{
+  float: right;
+  text-decoration: none;
+  background-color: #008000;
+  color: #FFFF00;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  margin-right: 30px;
+}
